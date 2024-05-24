@@ -3,9 +3,9 @@
 	import * as Button from '$lib/components/ui/button';
 </script>
 
-<div class="m-20 font-mono text-slate-500">
-	<div class="m-20 grid lg:grid-cols-3">
-		<Card.Root class="m-10 bg-slate-200">
+<div class="font-mono text-slate-500 sm:m-20">
+	<div class="grid md:m-20 lg:grid-cols-2 xl:grid-cols-3">
+		<Card.Root class="aspect-w-1 aspect-h-1 m-10 bg-slate-200 hover:border hover:border-slate-500">
 			<Card.Header>
 				<Card.Title
 					><a href="https://project-nine-ruddy.vercel.app/">Roleplaying Helper</a></Card.Title
@@ -24,7 +24,7 @@
 			</Card.Footer>
 		</Card.Root>
 
-		<Card.Root class="m-10 bg-slate-200">
+		<Card.Root class="aspect-w-1 aspect-h-1 m-10 bg-slate-200 hover:border hover:border-slate-500">
 			<Card.Header>
 				<Card.Title>Card Title</Card.Title>
 				<Card.Description>Card Description</Card.Description>
@@ -37,7 +37,7 @@
 			</Card.Footer>
 		</Card.Root>
 
-		<Card.Root class="m-10 bg-slate-200">
+		<Card.Root class="aspect-w-1 aspect-h-1 m-10 bg-slate-200 hover:border hover:border-slate-500">
 			<Card.Header>
 				<Card.Title>Card Title</Card.Title>
 				<Card.Description>Card Description</Card.Description>
@@ -50,7 +50,7 @@
 			</Card.Footer>
 		</Card.Root>
 
-		<Card.Root class="m-10 bg-slate-200">
+		<Card.Root class="aspect-w-1 aspect-h-1 m-10 bg-slate-200 hover:border hover:border-slate-500">
 			<Card.Header>
 				<Card.Title>Card Title</Card.Title>
 				<Card.Description>Card Description</Card.Description>
